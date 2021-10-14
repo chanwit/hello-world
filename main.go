@@ -12,7 +12,7 @@ var addr = flag.String("addr", ":8080", "addr to bind to")
 func handler(w http.ResponseWriter, r *http.Request) {
 	log.Println(r.RemoteAddr, r.Method, r.URL.String())
 
-	fmt.Fprintf(w, "hello gitops supply chain v1.0.1\n")
+	fmt.Fprintf(w, "hello gitops supply chain v1.0.2\n")
 }
 
 func main() {
